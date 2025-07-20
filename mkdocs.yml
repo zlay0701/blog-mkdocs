@@ -1,3 +1,6 @@
 site_name: blog-mkdocs
 theme:
   name: material
+plugins:
+  - blog
+  - tags
