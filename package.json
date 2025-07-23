@@ -4,6 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "mkdocs serve",
-    "vercel-build": "mkdocs build -d public"
+    "vercel-build": "echo 'Ignoring vercel-build because builds are defined in vercel.json'"
   }
 }
